@@ -38,3 +38,5 @@ target/
 # Gradle
 .gradle/
 build/
+
+#test-data
