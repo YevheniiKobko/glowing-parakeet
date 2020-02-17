@@ -1,21 +1,14 @@
 package com.trade.delivery;
-
 import java.util.Scanner;
-
 public class SumOfPlanes {
+    // Cause method sumOfNumbers
     public static void main(String[] args) {
-        System.out.println("Your number: "+ sum());
+        int d = sumOfNumbers(5,3);
+        System.out.println("Your number: " + d);
     }
-    /* Creating a variable int sum. It calculates the sum of two numbers*/
-    public static int sum () {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the first number: ");
-        int a = scan.nextInt();
-        System.out.println("Enter the second number: ");
-        int b = scan.nextInt();
-        int sum = a+b;
-        return sum;
+    //Created a new method that takes two parameters at the input and calculates their sum
+    public static int sumOfNumbers (int a, int b){
+        int c = a + b;
+        return c;
     }
-
-
-    }
+}
