@@ -1,7 +1,5 @@
 package com.trade.delivery;
-
 import java.util.ArrayList;
-
 public class ListOfCars {
     public static void main(String[] args) {
         ArrayList<String> audiFactory = new ArrayList<>();
