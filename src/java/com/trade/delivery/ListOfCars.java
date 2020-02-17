@@ -21,7 +21,7 @@ public class ListOfCars {
         for(int i = 2; i < 6; i++){
             System.out.println(audiFactory.get(i));
         }
-        // Deliting from the list Audi RS8
+        // Delete from the list Audi RS8
         audiFactory.remove(5);
         // Separate primary versions from sports version
         audiFactory.add(2, "Sport version: ");
